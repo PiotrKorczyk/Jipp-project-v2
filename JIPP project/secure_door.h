@@ -7,9 +7,6 @@
 class SecureDoor : public Door {
 private:
 
-	const int woodCost = 120;
-	const int ironCost = 30;
-
 	int price;
 	string name;
 	bool r;

@@ -40,6 +40,7 @@ void HeavyDoor::setR(bool _r) {
 	r = _r;
 }
 
+
 void HeavyDoor::doorType() {
 
 	cout << "Heavy door type: " << name << " price: " << price << "$ right: " << r << endl;

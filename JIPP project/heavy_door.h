@@ -7,9 +7,6 @@
 class HeavyDoor : public Door {
 private:
 
-	const int woodCost = 50;
-	const int ironCost = 60;
-
 	int price;
 	string name;
 	bool r;

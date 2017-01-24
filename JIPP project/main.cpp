@@ -1,5 +1,6 @@
 #include <iostream>
 #include "wooden_door.h"
+#include "materials.h"
 #include <string>
 
 using namespace std;
@@ -16,6 +17,10 @@ d1.setPrice(100);
 
 d1.doorType();
 d1.~WoodenDoor();
+
+Materials *m = new Materials();
+cout << m->getAmountOfWood << endl;
+cout << m->getAmountOfWood() << endl;
 
 system("pause");
 }

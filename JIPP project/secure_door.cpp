@@ -40,6 +40,9 @@ void SecureDoor::setR(bool _r) {
 	r = _r;
 }
 
+
+
+
 void SecureDoor::doorType() {
 
 	cout << "Secure door type: " << name << " price: " << price << "$ right: " << r << endl;

@@ -32,3 +32,6 @@ int Materials::getAmountOfIron() {
 void Materials::setAmountOfIron(int _value) {
 	amountOfIron = _value;
 }
+  
+
+

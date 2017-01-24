@@ -7,10 +7,8 @@
 class WoodenDoor: public Door {
 private:
 
-	const int woodCost = 100;
-	const int ironCost = 20;
 
-	int price;
+	int price; 
 	string name;
 	bool r;
 

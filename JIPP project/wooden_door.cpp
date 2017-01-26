@@ -9,6 +9,7 @@ WoodenDoor::WoodenDoor(string _name, int _price, bool _r) {
 	r = _r;
 }
 
+
 WoodenDoor::~WoodenDoor(){
 	cout << "\nWooden door DESTRUCTOR\n";
 }

@@ -8,31 +8,22 @@
 #include "materials.h"
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
 class DoorFactory: public Door {
 
-private:
-	static int amountOfDoors;
-	const int woodDoorWoodCost = 100;
-	const int woodDoorIronCost = 20;
-	const int heavyDoorWoodCost = 50;
-	const int heavyDoorIronCost = 60;
-	const int SecureDoorWoodCost = 30;
-	const int SecureDoorIronCost = 120;
-
-
+protected:
+	
 public:
 	DoorFactory();
 	~DoorFactory();
-	Door createWoodenDoor();
-	Door createHeavyDoor();
-	Door createSecureDoor();
+	Door *createWoodenDoor();
+	Door *createHeavyDoor();
+	Door *createSecureDoor();
+	bool enoughtMaterials(int _choosenDoor);
+	void displayMaterials();
 	
-
-	
-	
-
 };
 #endif 

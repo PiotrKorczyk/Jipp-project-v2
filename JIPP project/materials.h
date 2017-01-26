@@ -7,15 +7,15 @@ class Materials {
 
 
 private:
-	int amountOfWood = 1000;
-	int amountOfIron = 1000;
+	int amountOfWood;
+	int amountOfIron;
 
 public:
 	Materials();
+	Materials(int _amountOfWood, int _amountOfIron);
 	~Materials();
 	void materialsInfo();
 
-	
 
 	int getAmountOfWood();
 	void setAmountOfWood(int _value);

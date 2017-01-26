@@ -1,6 +1,8 @@
 #include <iostream>
 #include "wooden_door.h"
 #include "materials.h"
+#include "door_factory.h"
+#include "warehouse.h"
 #include <string>
 
 using namespace std;
@@ -8,19 +10,10 @@ using namespace std;
 
 int main() {
 
-WoodenDoor d1("Normal wood", 50, 1);
-
-d1.doorType();
-d1.setName("Normal wood v2");
-
-d1.setPrice(100);
-
-d1.doorType();
-d1.~WoodenDoor();
-
-Materials *m = new Materials();
-cout << m->getAmountOfWood << endl;
-cout << m->getAmountOfWood() << endl;
-
-system("pause");
+	
+		Warehouse *warehouse = new Warehouse();
+	while (warehouse->bayBay) {
+		warehouse->displayNavigation();
+	}
+	system("pause");
 }

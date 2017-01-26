@@ -8,6 +8,11 @@ Materials::Materials() {
 	amountOfIron = 1000;
 }
 
+Materials::Materials(int _amountOfWood, int _amountOfIron){
+	amountOfWood = _amountOfWood;
+	amountOfIron = _amountOfIron;
+}
+
 Materials::~Materials() {
 
 	cout << "\nMaterials destructor\n";

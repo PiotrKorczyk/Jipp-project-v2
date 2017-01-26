@@ -14,6 +14,9 @@ private:
 
 public:
 
+	static const int woodCost = 100;
+	static const int ironCost = 20;
+
 	WoodenDoor(string _name, int _price, bool _r);
 	~WoodenDoor();
 

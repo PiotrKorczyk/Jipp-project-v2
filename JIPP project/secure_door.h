@@ -6,12 +6,16 @@
 
 class SecureDoor : public Door {
 private:
-
 	int price;
 	string name;
 	bool r;
 
 public:
+	
+
+
+	static const int woodCost = 120;
+	static const int ironCost = 50;
 
 	SecureDoor(string _name, int _price, bool _r);
 	~SecureDoor();

@@ -9,6 +9,7 @@ HeavyDoor::HeavyDoor(string _name, int _price, bool _r) {
 	r = _r;
 }
 
+
 HeavyDoor::~HeavyDoor() {
 	cout << "\nHeavy door DESTRUCTOR\n";
 }
